@@ -98,5 +98,6 @@
     Greetr.init.prototype = Greetr.prototype;
 
     // attach our greetr to the global object, and provide a shorthand 'G$' for ease our poor fingers.
+    // 連結到全域物件 和定義呼叫方式
     global.Greetr = global.G$ = Greetr;
 }(window, jQuery));
