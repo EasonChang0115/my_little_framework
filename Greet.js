@@ -94,9 +94,9 @@
 
         self.validate();
     };
-    // trick borrowed from jquery so we don't have to use the 'new' keyword
+    // trick borrowed from jquery so we don't have to use the 'new' keyword 
     Greetr.init.prototype = Greetr.prototype;
 
-    // attach our greetr to the g;obal object, and provide a shorthand 'G$' for ease our poor fingers.
+    // attach our greetr to the global object, and provide a shorthand 'G$' for ease our poor fingers.
     global.Greetr = global.G$ = Greetr;
 }(window, jQuery));
